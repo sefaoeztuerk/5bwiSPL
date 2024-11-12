@@ -1,11 +1,14 @@
-import './app.css'
-import Card from './components/Card'
+import React from 'react';
+import Header from './components/Header';
+import PeopleContainer from './components/PeopleContainer';
 
-export function App() {
+const App: React.FC = () => {
   return (
-    <>
-      <h1>Super</h1>
-      <Card />
-    </>
-  )
+    <div className="min-h-screen">
+      <Header />
+      <PeopleContainer />
+    </div>
+  );
 }
+
+export default App;

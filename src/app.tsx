@@ -4,7 +4,7 @@ import PeopleContainer from './components/PeopleContainer';
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen">
+    <div className="bg-green-900 min-h-screen">
       <Header />
       <PeopleContainer />
     </div>

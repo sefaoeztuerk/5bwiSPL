@@ -7,6 +7,7 @@ const App: React.FC = () => {
     <div className="bg-green-900 min-h-screen">
       <Header />
       <PeopleContainer />
+
     </div>
   );
 }
